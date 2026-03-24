@@ -1,0 +1,30 @@
+# Virtual Environment
+myvenv/
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables (never push secrets!)
+.env
+
+# Database files
+*.db
+*.sqlite3
+
+# Docker
+.dockerignore
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Pytest cache
+.pytest_cache/
+
+# VS Code
+.vscode/
